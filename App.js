@@ -1,0 +1,24 @@
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
+import TransactionConfirmation from './components/TransactionConfirmation';
+import sendIcon from './components/TransactionConfirmation';
+import userIcon from './components/TransactionConfirmation';
+
+
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <TransactionConfirmation />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
