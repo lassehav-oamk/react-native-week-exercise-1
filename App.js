@@ -1,8 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import TransactionConfirmation from './components/TransactionConfirmation';
-import sendIcon from './components/TransactionConfirmation';
-import userIcon from './components/TransactionConfirmation';
 
 
 
