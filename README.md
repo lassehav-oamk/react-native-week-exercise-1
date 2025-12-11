@@ -2,7 +2,11 @@
 
 ## Assignment Brief
 
-Implement a static payment success screen in React Native based on the provided design mockup. This assignment tests your ability to translate a visual design into working code with accurate styling and typography.
+Implement a static payment success screen in React Native based on the provided design mockup. This assignment tests your ability to translate a visual design into working code with accurate styling and typography. The focus is on precision in colors, font sizes, weights, and text content. Do not include any navigation, state management, or API calls.
+
+You do not need to implement any functionality; the screen is purely visual.
+
+The design has gradients visible, you may use `expo-linear-gradient` or `react-native-linear-gradient` for the button gradient. The gradients are not necessary. 
 
 Here is the design of the layout, which you need to implement:
 ![Design](exerciseinfo-assets\layout-objective.png)
@@ -19,10 +23,10 @@ Here is the design of the layout, which you need to implement:
 
 ## Deliverables
 
-Submit a single React Native component file named `TransactionConfirmation.js` that:
+You should implement a single React Native component file named `TransactionConfirmation.js` that:
 
 1. Renders the payment success screen matching the provided design
-2. Includes all required testID attributes for automated validation
+2. Includes all required testID attributes for automated validation (Example <View style={styles.container} testID="paymentSuccessScreen">)
 3. Uses exact color values, font sizes, and text content as specified
 4. Is self-contained and executable in a standard React Native environment
 
@@ -31,7 +35,6 @@ Submit a single React Native component file named `TransactionConfirmation.js` t
 ### Required Technologies
 - React Native (latest stable version)
 - StyleSheet API for styling
-- expo-linear-gradient or react-native-linear-gradient (for button gradient)
 
 ### Component Structure
 
@@ -163,7 +166,7 @@ The following aspects will **NOT** be tested but should still be implemented for
 
 ### File Structure
 ```
-TransactionConfirmation.js (main component file)
+/components/TransactionConfirmation.js (main component file)
 ```
 
 ### Export Format
@@ -196,6 +199,11 @@ Before submission, verify:
 npm start
 # or
 expo start
+```
+
+### Run tests Command
+```bash
+npm test
 ```
 
 
