@@ -12,9 +12,7 @@ Here is the design of the layout, which you need to implement:
 ![Design](exerciseinfo-assets/layout-objective.png)
 
 
-**Duration:** 2-3 hours  
-**Type:** Individual Assignment  
-**Submission:** Single React Native component file
+
 
 ## Design Assets
 
