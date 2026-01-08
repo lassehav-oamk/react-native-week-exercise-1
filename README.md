@@ -9,7 +9,7 @@ You do not need to implement any functionality; the screen is purely visual.
 The design has gradients visible, you may use `expo-linear-gradient` or `react-native-linear-gradient` for the button gradient. The gradients are not necessary. 
 
 Here is the design of the layout, which you need to implement:
-![Design](exerciseinfo-assets\layout-objective.png)
+![Design](exerciseinfo-assets/layout-objective.png)
 
 
 **Duration:** 2-3 hours  
